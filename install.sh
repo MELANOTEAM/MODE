@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-cd $HOME/Mode
+cd $HOME/MODE
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x Mode
+chmod +x MODE
 chmod +x ts
 ./ts
 }
 get() {
-rm -fr Mode.lua
+rm -fr MODE.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/MELANOTEAM/Mode/master/Mode.lua"
+wget "https://raw.githubusercontent.com/MELANOTEAM/MODE/master/MODE.lua"
 lua start.lua
 }
 installall(){
@@ -47,7 +47,7 @@ fi
 installall
 cd ..
 rm -rf luarocks*
-cd Mode
+cd MODE
 rm -rf luarocks*
 lua start.lua
 
