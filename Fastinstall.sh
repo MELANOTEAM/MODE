@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
-cd $HOME/TshAkE
+cd $HOME/Tshake
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x TshAkE
+chmod +x Tshake
 chmod +x install.sh
 chmod +x ts
 ./ts
 }
 get() {
-rm -fr TshAkE.lua
+rm -fr Tshake.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/MELANOTEAM/TshAkE/master/TshAkE.lua"
+wget "https://raw.githubusercontent.com/MELANOTEAM/Tshake/master/Tshake.lua"
 lua start.lua
 }
 installall(){
@@ -48,7 +48,7 @@ fi
 installall
 cd ..
 rm -rf luarocks*
-cd TshAkE
+cd Tshake
 rm -rf luarocks*
 lua start.lua
 
