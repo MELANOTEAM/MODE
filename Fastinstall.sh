@@ -11,7 +11,7 @@ chmod +x ts
 get() {
 rm -fr Mode.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/ModeAb/Mode/master/Mode.lua"
+wget "https://raw.githubusercontent.com/MELANOTEAM/Mode/master/Mode.lua"
 lua start.lua
 }
 installall(){
